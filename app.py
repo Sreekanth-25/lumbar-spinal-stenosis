@@ -21,7 +21,7 @@ from utils_report import severity_from_ratio, generate_summary, generate_pdf
 
 # --- Configuration & Model Loading ---
 MODEL_FILE = "best_unet_resnet50.pth"
-MODEL_URL = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID_HERE" # <<<--- MAKE SURE YOU REPLACED THIS
+MODEL_URL = "https://drive.google.com/uc?export=download&id=189PF-zs4F_tXHVNOJF-r_kGnG4jM5SjP" 
 
 if not os.path.exists(MODEL_FILE):
     print(f"Model file '{MODEL_FILE}' not found.")
